@@ -1,0 +1,311 @@
+/*
+Theme Name: Oakland Art Murmur
+Theme URI: http://oaklandartmurmur.com/
+Description: Just for the murmur.
+Version: 3.0
+Author: Mark Nicola
+Tags: murmur
+
+Oakland Art Murmur by Mark Nicola || http://homemademess.com
+This is just a basic layout, with only the bare minimum defined.
+
+*/
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+a:visited {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+h3.gallery_link {
+	margin: 0px;
+}
+h3.gallery_addr {
+	margin: 0px;
+}
+
+acronym, abbr {
+	border-bottom: 1px dashed #333;
+}
+
+acronym, abbr, span.caps {
+	font-size: 90%;
+	letter-spacing: .07em;
+}
+
+acronym, abbr {
+	cursor: help;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+
+body {
+	background: #fff;
+	border: 0px;
+	color: #000;
+	font-family: sans-serif, Verdana, Geneva;
+	margin: 0;
+	padding: 0;
+}
+
+cite {
+	font-size: 90%;
+	font-style: normal;
+}
+
+h2 {
+	/*border-bottom: 1px dotted #ccc;*/
+	font: 95% sans-serif, Verdana, Geneva;
+	letter-spacing: 0.2em;
+	margin: 15px 0 2px 0;
+	padding-bottom: 2px;
+}
+
+h3 {
+	/*border-bottom: 1px dotted #eee;*/
+	font-family: sans-serif, Verdana, Geneva;
+	margin-top: 0;
+}
+
+ol#comments li p {
+	font-size: 100%;
+}
+
+p, li, .feedback {
+	font: 90%/135% sans-serif, Verdana, Geneva;
+	letter-spacing: 1;
+}
+
+/* classes used by the_meta() */
+ul.post-meta {
+	list-style: none;
+}
+
+ul.post-meta span.post-meta-key {
+	font-weight: bold;
+}
+
+.credit {
+	background: #90a090;
+	border-top: 3px double #aba;
+	color: #fff;
+	font-size: 11px;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+}
+
+.credit a:link, .credit a:hover {
+	color: #fff;
+}
+
+.feedback {
+	color: #ccc;
+	text-align: right;
+	clear: both;
+}
+
+.meta {
+	font-size: .75em;
+}
+
+.meta li, ul.post-meta li {
+	display: inline;
+}
+
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meta, .meta a {
+	color: #808080;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.storytitle {
+	margin: 0;
+}
+
+.storytitle a {
+	text-decoration: none;
+}
+
+.date {
+	color: #000;
+}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+	background: #fff;
+	border: 1px solid #333;
+	padding: .2em;
+}
+
+#commentform textarea {
+	width: 100%;
+}
+
+#commentlist li ul {
+	border-left: 1px solid #ddd;
+	font-size: 110%;
+	list-style-type: none;
+}
+
+#commentlist li .avatar {
+	float: right;
+	margin-right: 25px;
+	border: 1px dotted #ccc;
+	padding: 2px;
+}
+
+#content {
+	margin: 30px 40px 20px 40px;
+}
+
+#header {
+	background: #fff;
+	border-bottom: 0px;
+	font: italic normal 230% 'Times New Roman', Times, serif;
+	letter-spacing: 0.2em;
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+#head_img {
+	margin-bottom: -18px;
+}
+
+#menu, #footer {
+	border-top: thin solid #666;
+	border-bottom: thin solid #666;
+	width: 100%;
+	clear: both;
+}
+#menu table {
+	margin-left: 90px;
+}
+#menu td {
+	padding: 10px 20px 4px 20px;
+}
+
+#bottom {
+	padding: 3px;
+	background: #fff;
+	margin-bottom: 40px;
+}
+
+#bottom a {
+	color: #000;
+	text-decoration: none;
+}
+#bottom a, #bottom {
+	font-size: 10px;
+}
+
+#extras {
+	padding: 10px 40px 10px 40px;
+	background: rgb(87, 30, 0); //#391401;
+	margin-bottom: 0px;
+}
+
+#extras li {
+	display: block;
+}
+
+#wpstats {
+	display: none;
+}
+
+#widgets li {
+	display: block;
+}
+
+.bottomlink {
+	border-top: thin solid #000; 
+	width: 100%; 
+	border-bottom: thin solid #000; 
+	margin: 20px 0px;
+}
+table.price {
+	margin-top: 2px;
+}
+table.price td {
+	padding: 22px 2px 4px;
+}
+.buy_it {
+	margin: 5px auto;
+	clear: both;
+	border-top: thin solid #999;
+	border-bottom: thin solid #999;
+}
+
+/* Captions & aligment */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions & aligment */
