@@ -49,7 +49,7 @@
     <div id="menu">
 		<table cellpadding="0" cellspacing="0" align="center" style="margin: 0px auto;">
 		<tr>
-			<?php 
+			<?php
 			if (get_option('page_on_front') && get_option('show_on_front') == 'page' ) {
 				$home = '&exclude=' . get_option('page_on_front');
 			}
@@ -58,16 +58,18 @@
 			foreach ($menu as $menu_link) {
 				$toplinks[get_page_link($menu_link->ID)] = $menu_link->post_title;
 			}
+			/*   Remove post categories
 			$cats = get_categories();
 			foreach ($cats as $cat) {
 				if ($cat->parent == 0) {
 					$toplinks[get_category_link( $cat->term_id )] = $cat->name;
 				}
 			}
+			*/
 			asort($toplinks);
 			foreach ($toplinks as $link => $title) { ?>
 				<td valign="top" align="left"><a href="<?php echo $link; ?>"><?php make_text_image($title, 'menu_link'); ?></a></td>
-			<?php } ?> 
+			<?php } ?>
 		</tr>
 		</table>
     </div>
